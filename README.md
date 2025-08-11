@@ -12,6 +12,10 @@ This sketch runs on an ESP32, reads a DHT22 sensor (temperature / humidity) and 
 
 Designed for simple, offline‑friendly local logging without external cloud dependencies (WiFi only used for NTP time sync + local access).
 
+![ESP32 Datalogger](images/esp32-datalogger.JPG)
+
+![ESP32 IoT Screenshot](images/esp32-iot-screenshot.png)
+
 ## ✅ Features
 - DHT22 temperature (°C & °F) and humidity readings with retry logic
 - Motion detection (interval aggregation: any motion within interval → `true`)
